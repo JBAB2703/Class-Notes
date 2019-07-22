@@ -1,0 +1,19 @@
+22 July 2019
+Creating tables in SQL for the Capstone project
+Will send the detail information in Slack
+We will create a PRS (Purchase Request System)
+    5 Tables that will be created
+        -Tables
+            -User
+            -Vendor (Company)
+            -Product
+            -Request
+            -Request Line (Many to Many) 
+                -Based on the task given to us by Greg
+                this will deal with Constraints
+
+View
+    -it is a query stored in the database with a given name
+    which allows you to treat it like a table when you do a select
+    -again, create once and alter everytime after that
+    
