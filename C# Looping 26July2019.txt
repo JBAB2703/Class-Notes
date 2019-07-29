@@ -1,0 +1,68 @@
+Looping p. 57 - 59
+    for() statement
+        What goes inside the parens is not just a bool expression
+
+    for(..) { //body }
+
+    for(int idx = 0; idx < ints.Length; idx++){total + = ints[idx];}
+
+        How this executes:
+            When the for statement is encountered
+            it runs "int idx = 0;
+            Then it runs "idx < ints.Length;" assuming this is true
+            then the body gets executed
+            then it executes "idx++"
+            then it executes "idx < ints.Length;
+
+            it does this until it evaluates "idx < ints.Length;", or the boolean-expression
+            as to false then it drops to the statement after the statement block
+    
+    why was this created? It shortens this:
+
+     int[] ints = {1,2,3};
+     int total = 0;
+     int idx = 0;
+     while(idx < ints.Length){
+        total + = ints[idx];
+        idx++
+     }
+
+
+     foreach([type of each item in the array] [variable that I get to make up] in [the variable name of the collection){
+         total += 
+     }
+
+    foreach (int anInt in ints) Note: Always (Type Variable "in" name of collection){
+        total += anInt;
+    }
+        RESTRICTION: I cannot change the collection while I'm using the foreach loop all I can do is read it
+
+    Variant of the While() loop
+
+        do while() loop
+
+            do{ Body } while (<boolean-expression>)
+            this gaurantees the body will be executed at least once 
+            This is used a lot in games
+
+    
+    Break statement 
+        It can be used in any of the looping mechanisms
+
+        Example:
+            foreach(int Fred in numbers){
+                if(Fred % 7 == 0)
+                break;
+
+
+            foreach(Customer Cust in Customers){
+
+            }
+    Switch statement p. 62    
+        switch(<variable> example: cust.State){
+            case "MT":
+                found MTCust = true;
+                break;
+        }
+            
+    

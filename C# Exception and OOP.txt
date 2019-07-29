@@ -1,0 +1,33 @@
+Exceptions p.71
+
+
+-try catch block
+
+    try {...} // Must have
+    catch (Exception Ex) {...} // Must have
+    finally {...} // Optional
+
+-A sort of catch all for handling exceptions is to put it in the main
+
+-Not handling exceptions will cause your program to "blow up"
+-Its good practice that when your using methods from the Library to use Intellicense to try and identify what
+ possible Exceptions you might have happen.
+
+ Object Oriented Programming (OOP)
+    3 tenets of OOP 
+        1. Encapsulation 
+            Has to do with the creation of classes
+                Note: 2 thing that have to go into a class - 1. Properties and 2. methods
+            Encapsulation is the creation of an object that takes properties and methods and can be blocked off by
+            the rest of the world. 
+        
+        2. Inheritance
+            Its the ability to create a new object by using a current object and then specifying what is different.
+
+        3. Polymorphism
+            objects that can change into other things
+
+        *4. Composition
+                proponents of composition think that this should replace Inheritance
+
+

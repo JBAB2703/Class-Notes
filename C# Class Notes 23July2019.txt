@@ -1,0 +1,72 @@
+Statements
+    Case Sensitive p.39
+        cat, Cat, and CAT are all different
+    Statement Blocks
+        is a block of statments that are within a set of curly Statements
+    Statement terminator p. 40
+        must be terminated with a semicolon(;)
+        *Exception - almost never put a semicolon after a closing curly bracket
+    Ignores Whitespace
+    
+    Keywords pg.41
+        Cant use these words for object names or variables
+    Assignments pg.41
+        This is when you take a value from somewhere and store it in a variables
+            Example: a = 1; (This is an assignement statement or it is sometimes called a "move statement")
+                it evaluates everything on the right side and then copies it over into the variables
+                Print(a); which means to print the value that the variable has in it
+            
+                Think of it this way: 
+                    do everything you need to do on the right side of the equal sign and then copy it over to the left side
+
+    Equality pg.42
+        Example: While(i==10) 
+            A double equal sign is a check for Equality
+
+    Statically Typed
+        a language that requires the developer to declare a variable with a specific type
+
+    Using Statement
+
+        Code example is under MyFirstConsoleProject
+
+            using System;
+
+            namespace MyFirstConsoleProject {
+                    Class Program {
+                        static void Main(string[] args) {
+                            Console.WriteLine("Hello Word!");
+                        }
+                    }
+            }        
+                
+        System is a library and the word "using" allows me to use it
+
+        Example:
+            Console.WriteLine("Hello World!")
+
+                Console is a class
+                WriteLine is a method or a (function)
+                
+                Fullname of this could look like
+                System.Console.WriteLine
+                System is in the library
+                Console is the class
+                WriteLine is the method or a (function)
+
+    Contents of a Class 
+            Note: Things tend to be modeled as classes
+                  Everything is C# is a class
+
+        1 Properties (variables) are the data that the class holds
+        2 Methods (Functions) pieces of executable code that i can call that are part of the class
+    
+
+    Operators
+        +, -, *, /
+
+        % (modulus)
+        a % b = remainder a/b
+        7 % 2 = 7 / 2 = 3 * 2 = 6 = 1
+
+        

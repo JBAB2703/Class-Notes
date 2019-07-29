@@ -1,0 +1,44 @@
+Types
+    example syntax for using a type     
+        // define an integer named i 
+        int i;
+        // define an integer named j and initialized it to 5 
+        int j = 5;
+
+    Reference Types 
+
+    
+
+
+
+Interpolation is simply telling the program that inside this string to allow a variable
+
+Accesss Modifiers pg. 43 in C# Book
+    "public allows other classes to call this method", 
+    "private (method default) means only accessible to containing class" 
+    "internal (class default) means accessible from any class in the same project"
+
+Note: Special method
+    -Constructor: .Net puts this in behind the scenes of all my classes
+                  The default constructor has no parameters in it and just exists so I can create an instance of my class
+
+Methods are typically used for changing the properties of a parameters
+
+    void is a special type that doesn't return any value but allows a return statement but cannot have a parameter
+
+Process Control Statements
+    if(<boolean-exp>)
+        statement | statement-block (1 or more statements within curly braces)
+        -optional clause in the if statement    
+            -Else, this goes after the closing curly braces
+
+        and / or statements in C#, the operators are as follows: AND = &&, OR = ||
+
+        How its written:
+            if((status == "CURRENT") || (status == "PAST) || (status == "FUTURE"))
+
+Array
+    is a variable that holds a particular amount of integers
+
+    int[] scores = new int[5]
+    
